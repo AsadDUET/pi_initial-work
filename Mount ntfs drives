@@ -1,17 +1,16 @@
 sudo blkid  /dev/sda1
-.
-.
-.
-sudo blkid  /dev/sda4            //****as many as drive you have******
 
 find the UUID ( UUID="7AE29E7FE29E3F77") 
 
 sudo mkdir /mnt/personal
-
 
 sudo nano /etc/fstab
 
 write: 
 
 UUID="7AE29E7FE29E3F77" /mnt/personal ntfs nls-utf8,umask-0222,uid-1000,gid-1000,ro 0 0
+
+
+save and exit
+do the same for all drives.
 
