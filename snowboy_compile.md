@@ -22,3 +22,7 @@ make <br />
 sudo make install && <br />
 sudo install -v -m755 -d /usr/share/doc/swig-3.0.10 && <br />
 sudo cp -v -R Doc/* /usr/share/doc/swig-3.0.10 <br />
+
+git clone https://github.com/Kitt-AI/snowboy.git <br />
+cd snowboy/swig/Python3 <br />
+make
