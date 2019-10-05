@@ -10,6 +10,7 @@ wget http://downloads.sourceforge.net/swig/swig-3.0.10.tar.gz <br />
 sudo apt-get install libpcre3 libpcre3-dev <br />
 
 ## Permission
+cd to swig directory
 
 For permission on any file " sudo chmod a+x [file directory]
 
