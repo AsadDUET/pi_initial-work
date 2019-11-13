@@ -10,8 +10,7 @@ sudo nano /etc/fstab
 
 write: 
 
-UUID="7AE29E7FE29E3F77" /mnt/personal ntfs rw 1 1
-
+UUID=AE0664D80664A357 /home/pi/Desktop/ThisPC/movie ntfs auto,rw,defaults 1 1
 
 save and exit
 do the same for all drives.
