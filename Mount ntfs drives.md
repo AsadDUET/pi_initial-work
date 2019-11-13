@@ -4,7 +4,7 @@ sudo blkid
 find the UUID ( UUID="7AE29E7FE29E3F77") 
 
 ### create mounting folder
-sudo mkdir /mnt/personal
+sudo mkdir /home/pi/Desktop/ThisPC/movie
 
 sudo nano /etc/fstab
 
